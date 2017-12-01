@@ -119,8 +119,8 @@ contactSumbit{
     margin-top: 700px;
 }
 .water{
-             margin-left: 650px;
-    margin-top: 700px;
+             margin-left: 800px;
+   
 }
 
 
@@ -193,9 +193,18 @@ background-color:black;
   
   background-color: white;
 }
-    
-       
+    .calm{
+        margin: 0 auto;
+        width: 100%;   
+        
 }
+.water{
+     margin: 0 auto;
+     width: 100%;   
+    
+}
+       
+
      p2{
    background-color:black;
    width:100%;
