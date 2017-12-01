@@ -1,37 +1,224 @@
-@import 'custom';
-@import '../node_modules/bootstrap/scss/bootstrap';
-
-body {
-  padding: 2rem 0;
+p{
+    font-size: 20pt;
+    font-family:  'Cormorant Garamond', serif;
+    color: #f15a24;
+    /*paragraph*/
 }
-
-// Responsive typography sizes using Bootstrap mixins for the media querries
-html {
-  font-size: 14px;
-}
-
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 16px;
+p2{
+   background-color:black;
+   width:100%;
+   color: white;
+   font-size: 15pt;
+   font-family:  'Cormorant Garamond', serif;
+   text-align: center;
+   margin-left: 800px;
+ }
+ p6{
+    background-color:black;
+    width:100%;
+    color: white;
+    font-size: 35pt;
+    font-family:  'Cormorant Garamond', serif;
+    text-align: center;
   }
+li{
+    font-size: 30px;
+    width: 33%;
+    float:left;
+    color: #f15a24;
+    text-align: center;
+    padding-top: 100px;
+    margin:inherit;
+    font-family:  'Cormorant Garamond', serif;
+}
+ /*TheLinkeGettingStyleised*/
+
+  body{
+         width: auto;
+        background-color: white;
+        height: 5000px;
+    }
+.navigation{
+    height: 200px;
+    width: 100%;
+    background-color: #006837;
+    }
+
+
+.mainboarder{
+  height:600px;
+  width: 10%;
+  background-color: white;
+  margin: 0 auto;
 }
 
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 20px;
+contact{
+font-size:35px;
+color: #f15a24;
+}
+contactSumbit{
+  color: #f15a24;
+  margin: 0 auto;
+}
+.box1{ height: 250px;
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+.box2{
+    height: 250px;
+    margin-top: 25px;
+  width: 50%;
+  float: right;
+  background-color: white;
+
+
+
+}
+.box3{
+    margin-top: 25px;
+  width: 50%;
+  float: left;
+  background-color: white;
+  display: block;
+}
+.box4{
+    height: 250px;
+  width: 50%;
+  float: right;
+  background-color: white;
+        margin-top: 25px;
+    
+}
+
+.me{
+     margin-top: 4000px;
+  height: 565px;
+  width:424px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+
+
+.Products{
+    margin: 0 auto;
+   width: 35%;
+  background-color: white;
+}
+.services1{
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+
+.services2{
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+.calm{
+             margin-left: 650px;
+    margin-top: 700px;
+}
+.water{
+             margin-left: 800px;
+   
+}
+
+
+
+
+footer{
+margin-top: 600px;  
+float: left;
+width: 100%;
+background-color:black;
+ }
+ @media screen and (max-width: 767px){
+    header{
+    height: 788px;
+    width:100%;
+    background-image: url(..//images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
+    body{
+          background-color: white;
+      }
+      .mainboarder{
+
+        width:300px;
+        background-color: white;
+        border:20px;
+      }
+      .box1{
+
+        width: 100%;
+        float: left;
+        background-color: white;
+
+      }
+      .box2{
+
+        width: 100%;
+        float: right;
+        background-color: white;
+        border:20px;
+      }
+      .box3{
+
+        width: 100%;
+        float: left;
+        background-color: white;
+
+      }
+      .box4{
+
+        width: 100%;
+        float: right;
+        background-color: white;
+
+      }
+     .Products{
+    margin: 0 auto;
+   width: 100%;
+  background-color: white;
+}
+.services1{
+  width: 100%;
+  
+  background-color: white;
 }
 
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 28px;
-  }
+.services2{
+  width: 100%;
+  
+  background-color: white;
 }
+    .calm{
+        margin: 0 auto;
+        width: 100%;   
+        
+}
+.water{
+     margin: 0 auto;
+     width: 100%;   
+    
+}
+       
 
-.header-subtle {
-  @extend .text-warning;
-  @extend .text-uppercase;
-  font-size: 1.2rem;
-  letter-spacing: .12em;
-  opacity: .6;
+     p2{
+   background-color:black;
+   width:100%;
+   color: white;
+   font-size: 15pt;
+   font-family:  'Cormorant Garamond', serif;
+   text-align: center;
+   margin-left: 203px;
+ }
+      footer{
+      width: 100%;
+      background-color:black;
+       }
 }
